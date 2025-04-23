@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Alex Peterson Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<div id="navbar">
+    <a href="index.html" id="logo">Alex Peterson</a>
+    <div id="navbar-right">
+      <a href="index.html">Home</a>
+      <a class="active" href="#projects">Projects</a>
+    </div>
+  </div>
+  <body>
+    <div id="title" class="title">
+      <h1 class="title">School Projects</h1>
+      <div id="buttons">
+        <button id="buttons1" type="button" onclick="changeview1()">C# Apps</button>
+        <button id="buttons2" type="button" onclick="changeview2()">.NET Maui Apps</button>
+        <button id="buttons3" type="button" onclick="changeview3()">Other Projects</button>
+      </div>
+    </div>
+    <div id="id1" class="projectformat">
+      <h1 class="projecttype">C# Window Forms Applications</h1>
+      <hr>
+      <h2 class="projectname">Inventory System</h2>
+      <hr class="lineLen">
+      <p>This was my first project using C# and it was using window forms. It was a focus into using C# and learning the basics. 
+        It used bounded list's to store the parts and products. The images above are the home page, the add product page and the add part page. 
+        With the product created page, parts could be added to be apart of the product.
+      </p>
+      <img src="ScreenShots/inventorysystem main page.png" width="750px" height="auto">
+      <img src="ScreenShots/inventorysystem add product.png" width="590" height="auto">
+      <img src="ScreenShots/inventorysystem add part.png" width="353" height="auto">
+      <h2 class="projectname">Scheduling Application</h2>
+      <hr class="lineLen">
+      <p>This was my second project with C# and it was another Windows From app. It had us focus on more advanced topics within C#, 
+        i.e. utilizing lambda expressions. For the project a pre-created MySQL database was created to use to store data. 
+        A login screen checked correct login information and had a location identifier, and would change to Spanish if location was in Mexico. 
+        Creation of login credentials, new customer, and scheduling an appointment had checks with the database to ensure no duplicates.
+      </p>
+      <img src="ScreenShots/Scheduling app main screen.png" width="725" height="auto">
+      <img src="ScreenShots/Scheduling app login.png" width="350" height="auto">
+      <img src="ScreenShots/Scheduling app add Customer.png" width="375" height="auto">
+      <img src="ScreenShots/Scheduling app add appointment.png" width="350" height="auto">
+    </div>
+    <div id="id2" class="projectformat">
+      <h1 class="projecttype">.NET MAUI Applications</h1>
+      <hr>
+      <h2 class="projectname">School Scheduling App</h2>
+      <hr class="lineLen">
+      <p>This was my third C# project and it was a .NET Maui application. 
+        It was a school scheduling app that allowed the creation of terms, courses, and assessments. 
+        The application utilized a SQLite database to store the users data.
+      </p>
+      <img src="ScreenShots/C971 homepage.png" width="300" height="auto">
+      <img src="ScreenShots/C971 Termviewpage.png" width="299" height="auto">
+      <h2 class="projectname">Exercise Dice App</h2>
+      <hr class="lineLen">
+      <p>This .NET Maui application was my capstone project for my software Engineering Degree. 
+        The app used a SQLite database to store data. 
+        The app used imaginary dice for the user to roll and get back a exercise and a time amount or rep amount.
+      </p>
+      <img src="ScreenShots/EXDice home.png" width="300" height="auto">
+      <img src="ScreenShots/EXDice workout pg.png" width="300" height="auto">
+      <img src="ScreenShots/EXDice create dice pg.png" width="300" height="auto">
+      <img src="ScreenShots/EXDice weight track pg.png" width="300" height="auto">
+    </div>
+    <div id="id3" class="projectformat">
+      <h1 class="projecttype">Other School Projects</h1>
+      <hr>
+      <h2 class="projectname">PostgreSQL DVD Rental Store</h2>
+      <hr class="lineLen">
+      <p>This project was with PostgreSQL and creating a new set of tables for a database to view what the most rented movie genres where each month. 
+        Attached below is a link to a write up about the project.
+      </p>
+      <p>Link: <a href="https://docs.google.com/document/d/1-9i_DgqIPzGIatJYKWTYBEvpIqNBw70zCTbkAzh0pmE/edit?usp=sharing" target="_blank">Google Doc</a></p>
+      <img src="ScreenShots/postgresql.png" width="420" height="auto">
+      <img src="ScreenShots/postgresql2.png" width="560" height="auto">
+      <h2 class="projectname">Website Design: Country of Taniti</h2>
+      <hr class="lineLen">
+      <p>This website I designed for a school project, which was for a imaginary country. 
+        It promoted travel, history and culture of the country.
+      </p>
+      <p>Link: <a href="https://tanitiislands.weebly.com" target="_blank">Taniti Islands</a></p>
+      <img src="ScreenShots/taniti homepage.png" width="1000" height="auto">
+    </div>
+    <hr>
+  </body>
+
+  <footer>
+    <p class="footer">Email - <a href="mailto:peterson.alex98@gmail.com">peterson.alex98@gmail.com</a></p>
+    <p class="footer"><a href="https://www.linkedin.com/in/alex-peterson-25b7a32aa" target="_blank">LinkedIn</a></p>
+</footer>
+</html>
