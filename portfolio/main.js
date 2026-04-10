@@ -1,4 +1,5 @@
 import './style.css';
+import 'flowbite';
 
 document.getElementById("buttons1")?.addEventListener("click", () => showView("id1"));
 document.getElementById("buttons2")?.addEventListener("click", () => showView("id2"));
