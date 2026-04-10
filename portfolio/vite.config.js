@@ -3,10 +3,10 @@ import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-  plugins: [
-    tailwindcss(),
-  ],
   base: '/AlexPeterson_Portfolio/',
+  plugins: [
+    tailwindcss()
+  ],
   build: {
     rollupOptions: {
       input: {
