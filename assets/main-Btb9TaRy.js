@@ -1,0 +1,1 @@
+import{t as e}from"./main-CWXfqEr-.js";var t=document.getElementById(`navbar-container`);function n(){t.innerHTML=e()}n(),window.addEventListener(`hashchange`,n);

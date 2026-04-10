@@ -15,4 +15,4 @@
     </div>
   </div>
 </nav>
-`}var t=document.getElementById(`navbar-container`);function n(){t.innerHTML=e()}n(),window.addEventListener(`hashchange`,n),document.getElementById(`buttons1`)?.addEventListener(`click`,()=>r(`id1`)),document.getElementById(`buttons2`)?.addEventListener(`click`,()=>r(`id2`)),document.getElementById(`buttons3`)?.addEventListener(`click`,()=>r(`id3`));function r(e){[`id1`,`id2`,`id3`].forEach(t=>{document.getElementById(t).classList.toggle(`hidden`,t!==e)}),[`buttons1`,`buttons2`,`buttons3`].forEach(t=>{document.getElementById(t).classList.toggle(`bg-green-700`,t===`buttons${e.slice(-1)}`)})}
+`}document.getElementById(`buttons1`)?.addEventListener(`click`,()=>t(`id1`)),document.getElementById(`buttons2`)?.addEventListener(`click`,()=>t(`id2`)),document.getElementById(`buttons3`)?.addEventListener(`click`,()=>t(`id3`));function t(e){[`id1`,`id2`,`id3`].forEach(t=>{document.getElementById(t).classList.toggle(`hidden`,t!==e)}),[`buttons1`,`buttons2`,`buttons3`].forEach(t=>{document.getElementById(t).classList.toggle(`bg-green-700`,t===`buttons${e.slice(-1)}`)})}export{e as t};
