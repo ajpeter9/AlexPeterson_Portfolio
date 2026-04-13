@@ -1,0 +1,1 @@
+import{t as e}from"./main-g0Mhsl0_.js";var t=document.getElementById(`navbar-container`);function n(){t.innerHTML=e()}n(),window.addEventListener(`hashchange`,n);
